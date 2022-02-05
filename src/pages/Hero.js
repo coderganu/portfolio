@@ -19,7 +19,7 @@ const Hero = () => {
                                 <h3 className="hero-title" >I'm a
                                     <span className="type-text">
                                         <Typewriter
-                                            words={['Developer', 'Designer', 'Blogger', 'Freelancer']}
+                                            words={['Developer', 'Designer', 'Blogger', 'Freelancer' , 'Content Creator']}
                                             loop
                                             cursor
                                             cursorStyle="|"
