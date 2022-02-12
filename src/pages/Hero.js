@@ -16,7 +16,7 @@ const Hero = () => {
 
                             <div class="col-lg-6 col-sm-12 mx-sm-auto">
                                 <h1 className="main-heading">Daivesh Vijay Suryawanshi</h1>
-                                <h3 className="hero-title" >I'm a
+                                <h3 className="hero-title" >I'm a 
                                     <span className="type-text">
                                         <Typewriter
                                             words={['Developer', 'Designer', 'Blogger', 'Freelancer' , 'Content Creator']}
