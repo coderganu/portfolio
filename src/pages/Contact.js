@@ -62,13 +62,13 @@ const Contact = () => {
 
     return (
         <>
-          <h1 className="conatct-heading text-center fw-bold">
-                    Contact Us.
-                </h1>
-            <section className="contactus-section">
-           
-                <div className="container">
 
+            <section className="contactus-section overflow-hidden">
+
+                <div className="container">
+                    <h1 className="conatct-heading text-center fw-bold">
+                        Contact Us.
+                    </h1>
                     <div className="row">
                         <div className="col-12 col-lg-10 mx-auto">
 
@@ -83,11 +83,11 @@ const Contact = () => {
 
                                     <div class="d-flex mb-3 simpleCircle">
                                         <i class="bi bi-geo-alt"></i>
-                                        <p class="contact-info my-auto ms-4">Deola , Maharashtra, India</p>
+                                        <p class="contact-info my-auto ms-4">Siddhivinayak plaza Thengode (Satana) </p>
                                     </div>
 
                                     <div class="d-flex mb-3 simpleCircle">
-                                        <i class="bi bi-telephone"></i>
+                                        <i class="bi bi-whatsapp"></i>
                                         <p class="contact-info my-auto ms-4">+91 9322142526</p>
                                     </div>
 

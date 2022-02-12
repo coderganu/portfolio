@@ -14,7 +14,7 @@ const Hero = () => {
                                 <img src="./assets/img/1.jpg" class="d-block hero-img img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy" />
                             </div>
 
-                            <div class="col-lg-6 col-sm-12 mx-sm-auto">
+                            <div class="col-lg-6 col-sm-12 col-12 mx-sm-auto">
                                 <h1 className="main-heading">Daivesh Vijay Suryawanshi</h1>
                                 <h3 className="hero-title" >I'm a 
                                     <span className="type-text">
