@@ -8,7 +8,7 @@
   font-family: "Poppins", sans-serif;
 }
 body{
-  width: 100%;
+  min-width: 100%;
   overflow-x: hidden;
 }
 
@@ -107,7 +107,7 @@ h6 {
                         -------------------------------------------------------*/
 header {
   background-color: var(--bgcolor);
-  min-height: 90vh;
+  min-height: 80vh;
   width: 100%;
 }
 
@@ -238,6 +238,8 @@ header {
 /* --------------------------------- About Us Section STarts  
                         -------------------------------------------------------*/
 .common-section {
+  width: 100%;
+  overflow-x: hidden;
   margin: 10rem 0;
 }
 
@@ -261,6 +263,8 @@ header {
   font-weight: bolder;
 }
 
+
+
 .our-services-para {
   font-size: 1.8rem;
   color: var(--text-color);
@@ -278,14 +282,27 @@ header {
   margin: 1rem 0;
 } */
 
-/* 2nd section of about us  */
+/*===== About me ===== */
 
-.our-services-rightside {
-  margin-top: 10rem;
+.our-services{
+  width: 100%;
+  overflow-x: hidden;
 }
 
-.our-services-rightside-content {
-  padding-left: 8rem;
+.our-services .our-services-number {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  background-color: transparent;
+  border: 0.1rem solid var(--primary-color);
+  font-size: 1.5rem;
+  color: var(--primary-color);
+  display: grid;
+  place-items: center;
+}
+
+.aboutme-para{
+  font-size: 1.4rem;
 }
 
 

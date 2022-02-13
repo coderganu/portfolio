@@ -1,18 +1,13 @@
 import React from "react";
 import Hero from "./Hero";
-import Aboutus from "./Aboutus";
-import Services from "./Service";
-import Contact from "./Contact";
+import Aboutme from "./Aboutme";
 
 const Home = () => {
 
     return (
         <>
             <Hero />
-            <Aboutus />
-            <Services />
-            <Contact />
-
+           <Aboutme />
         </>
     )
 

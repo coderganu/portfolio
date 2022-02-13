@@ -51,7 +51,7 @@ const Contact = () => {
                     subject: "",
                     message: "",
                 });
-                alert("Data Stored");
+                alert("Thank you for contacting Daivesh Vijay Suryawanshi ! Please let us know how we can help you.");
             } else {
                 alert("plz fill the data");
             }

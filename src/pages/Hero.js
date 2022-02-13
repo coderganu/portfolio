@@ -16,10 +16,10 @@ const Hero = () => {
 
                             <div class="col-lg-6 col-sm-12 col-12 mx-sm-auto">
                                 <h1 className="main-heading">Daivesh Vijay Suryawanshi</h1>
-                                <h3 className="hero-title" >I'm a 
+                                <h3 className="hero-title" >I'm a
                                     <span className="type-text">
                                         <Typewriter
-                                            words={['Developer', 'Designer', 'Blogger', 'Freelancer' , 'Content Creator']}
+                                            words={['Developer', 'Designer', 'Blogger', 'Freelancer', 'Content Creator']}
                                             loop
                                             cursor
                                             cursorStyle="|"
@@ -55,12 +55,16 @@ const Hero = () => {
 
                                 <div class="d-grid gap-2 d-flex justify-content-md-start justify-content-sm-start">
                                     <Link to="/contact">
-                                    <button className="btn btn-style" >Hire Me</button>
+                                        <button className="btn btn-style" >Hire Me</button>
                                     </Link>
 
-                                    <Link to="/resume">
-                                    <button className="btn-style btn-style-border">Resume</button>
-                                    </Link>
+
+                                    <button className="btn-style btn-style-border" onClick={(e) => {
+                                        e.preventDefault();
+                                        window.location.href = 'https://drive.google.com/file/d/1SQt7WFH8pYMY5OBXvnJjbRmWeS5zp3Ed/view?usp=sharing'
+                                    }}
+                                    >Resume</button>
+
 
                                 </div>
                             </div>

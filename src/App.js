@@ -12,6 +12,7 @@ import Aboutus from './pages/Aboutus';
 import Services from './pages/Service';
 import Contact from "./pages/Contact";
 import Footer from "./pages/Footer";
+import Aboutme from './pages/Aboutme';
 
 function App() {
   return (

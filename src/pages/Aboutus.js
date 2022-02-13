@@ -22,8 +22,7 @@ const Aboutus = () => {
 
                                 <div className="col-12 our-services-data">
                                     <p className="our-services-para">
-                                        I'm a IT Profestional. we offers a wide range of IT services ranging from App Development, Website Development, in India. And Also Providing the Content Writting Services. for like blogging , Video Scrip twritting. And I also Known about some computer Programming. like for C, C++, Java , Javascript, html , Css. I also know a little bit about hacking.
-                                    </p>
+                                    I'm a IT Professional. we offers a wide range of IT services ranging from App Development, Website Development, in India. And Also Providing the Content Writing Services. for like blogging , Video Script writing. And I also Known about some computer Programming. like for C, C++, Java , Javascript, html , Css. I also know a little bit about hacking.                                    </p>
                                 </div>
                             </div>
 
