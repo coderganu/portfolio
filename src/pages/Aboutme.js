@@ -4,17 +4,17 @@ const Aboutme = () => {
   const [aboutData, setAboutData] = useState(howToUseApp);
   return (
     <>
-      <section className="common-section our-services">
-        <div className="container mb-5">
-          <div className="row w-100">
+      <section className="common-section our-services overflow-hidden">
+        <div className="container mb-5 overflow-hidden">
+          <div className="row">
             <div className="col-12 col-lg-5 text-center our-service-leftside-img">
               <img src="./assets/img/1.jpg" alt="aboutusIMg" />
             </div>
 
             {/* 1section right side data  */}
-            <div className="col-12 col-lg-7 our-services-list">
+            <div className="col-12 col-lg-7 our-services-list ">
              
-              <h1 className="main-heading mb-4">What Do We Offer</h1>
+              <h1 className="main-heading mb-5">What Do We Offer</h1>
 
               {aboutData.map((curElem) => {
                 const { id, title, info } = curElem;
@@ -31,8 +31,7 @@ const Aboutme = () => {
                 );
               })}
 
-              <br />
-              <button className="btn-style btn-style-border">learn more</button>
+              
             </div>
           </div>
         </div>

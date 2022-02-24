@@ -12,7 +12,7 @@ import Aboutus from './pages/Aboutus';
 import Services from './pages/Service';
 import Contact from "./pages/Contact";
 import Footer from "./pages/Footer";
-import Aboutme from './pages/Aboutme';
+import Portfolio from './pages/Portfolio';
 
 function App() {
   return (
@@ -23,6 +23,7 @@ function App() {
       <Route path="/" element={<Home />} />
       <Route path="about" element={<Aboutus />} />
       <Route path="service" element={<Services />} />
+      <Route path="portfoio" element={<Portfolio />} />
       <Route path="contact" element={<Contact />} />
     </Routes>
 
