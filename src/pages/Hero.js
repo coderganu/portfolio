@@ -36,7 +36,7 @@ const Hero = () => {
                                         <i class="bi bi-facebook" ></i>
                                     </a>
 
-                                    <a href="https://www.instagram.com/itengg_7875/">
+                                    <a href="https://www.instagram.com/codewithdaivesh">
                                         <i class="bi bi-instagram"></i>
                                     </a>
 

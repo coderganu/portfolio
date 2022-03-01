@@ -10,41 +10,30 @@ const Portfolioapi = [
   {
     id: 2,
     categories: "app",
-    logo: "./assets/img/portfolio/app1.png",
-    title: "Tyres Shop App",
-
+    logo:"./assets/img/portfolio/app1.png",
+    title:"GST Calculator",
   },
 
   {
-    id: 3,
-    categories: "ui",
-    logo: "./assets/img/portfolio/ui1.png",
-    title: "Login Page ",
-
+    id:3,
+    categories:"ui",
+    logo:"./assets/img/portfolio/ui1.png",
+    title:"Login Page"
   },
 
   {
     id: 4,
-    categories: "web",
-    logo: "./assets/img/portfolio/web2.png",
-    title: "Login Page ",
+    categories:"web",
+    logo:"./assets/img/portfolio/web2.png",
+    title:"GST Calculator website",
   },
 
   {
-    id: 5,
-    categories: "app",
-    logo: "./assets/img/portfolio/app2.png",
-    title: "GST Calculator",
-
-  },
-
-  {
-    id: 6,
-    categories: "ui",
-    logo: "./assets/img/portfolio/ui2.png",
-    title: "Food Item ",
-
-  },
+    id: 4,
+    categories:"ui",
+    logo:"./assets/img/portfolio/ui2.png",
+    title:"UI Design Food App"
+  }
 
 ];
 

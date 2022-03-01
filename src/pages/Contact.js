@@ -25,7 +25,7 @@ const Contact = () => {
 
         if (firstName && lastName && phone && email && subject && message) {
             const res = fetch(
-                "https://daiveshsuryawanshiit-default-rtdb.firebaseio.com/contactForm.json",
+                "https://contactdb-daivesh-default-rtdb.firebaseio.com/contactdb-daivesh",
                 {
                     method: "POST",
                     headers: {
