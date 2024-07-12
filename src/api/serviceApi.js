@@ -37,9 +37,9 @@ const serviceapi = [
 
     {
       id: 6,
-      logo: "bi bi-printer",
-      title: "Cyber Cafe ",
-      info: "We Provide Online Service Like online form filling , universal pass, mobile and dish tv reacharge.",
+      logo: "bi bi-cpu",
+      title: " Tech Support ",
+      info: "Offering  tech support services  OS and software installation, PC and laptop issue resolution, and coding support. Whether you need help setting up your system, troubleshooting hardware and software issues, or assistance with coding projects",
     },
     
   ];

@@ -48,9 +48,7 @@ const Hero = () => {
                                         <i class="bi bi-linkedin"></i>
                                     </a>
 
-                                    <a href="https://github.com/daiveshvsuryawanshi">
-                                        <i class="bi bi-github"></i>
-                                    </a>
+                                  
                                 </div>
 
                                 <div class="d-grid gap-2 d-flex justify-content-md-start justify-content-sm-start">
