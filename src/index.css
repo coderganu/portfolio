@@ -339,7 +339,7 @@ header {
 }
 
 .work-container-subdiv:hover {
-  background-color: var(--bgcolor);
+  background-color: var(--primary-color);
   cursor: pointer;
 }
 

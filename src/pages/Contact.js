@@ -2,8 +2,7 @@ import React, { useState } from "react";
 
 const Contact = () => {
     const [userData, setUserData] = useState({
-        firstName: "",
-        lastName: "",
+       name: "",
         phone: "",
         email: "",
         address: "",
@@ -21,19 +20,18 @@ const Contact = () => {
     // connect with firebase
     const submitData = async (event) => {
         event.preventDefault();
-        const { firstName, lastName, phone, email, subject, message } = userData;
+        const { name, phone, email, subject, message } = userData;
 
-        if (firstName && lastName && phone && email && subject && message) {
+        if (name && phone && email && subject && message) {
             const res = fetch(
-                "https://contactdb-daivesh-default-rtdb.firebaseio.com/contactdb-daivesh",
+                "https://contact-portfolio-iota.vercel.app/api/addcontact",
                 {
                     method: "POST",
                     headers: {
                         "Content-Type": "application/json",
                     },
                     body: JSON.stringify({
-                        firstName,
-                        lastName,
+                        name,
                         phone,
                         email,
                         subject,
@@ -44,14 +42,13 @@ const Contact = () => {
 
             if (res) {
                 setUserData({
-                    firstName: "",
-                    lastName: "",
+                    name : "",
                     phone: "",
                     email: "",
                     subject: "",
                     message: "",
                 });
-                alert("Thank you for contacting Daivesh Vijay Suryawanshi ! Please let us know how we can help you.");
+                alert("Thank You for Contact us.");
             } else {
                 alert("plz fill the data");
             }
@@ -102,28 +99,19 @@ const Contact = () => {
                                 <div className="contact-rightside col-12 col-lg-7">
                                     <form method="POST">
                                         <div className="row">
-                                            <div className="col-12 col-lg-6 contact-input-feild">
+                                            <div className="col-12 col-lg-12 contact-input-feild">
                                                 <input
                                                     type="text"
-                                                    name="firstName"
+                                                    name="name"
                                                     id=""
                                                     className="form-control"
-                                                    placeholder="First Name"
-                                                    value={userData.firstName}
+                                                    placeholder="Full Name"
+                                                    value={userData.name}
                                                     onChange={postUserData}
+
                                                 />
                                             </div>
-                                            <div className="col-12 col-lg-6 contact-input-feild">
-                                                <input
-                                                    type="text"
-                                                    name="lastName"
-                                                    id=""
-                                                    className="form-control"
-                                                    placeholder="Last Name"
-                                                    value={userData.lastName}
-                                                    onChange={postUserData}
-                                                />
-                                            </div>
+                                            
                                         </div>
                                         <div className="row">
                                             <div className="col-12 col-lg-6 contact-input-feild">
